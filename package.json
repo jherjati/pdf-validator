@@ -1,0 +1,17 @@
+{
+  "name": "pdf-validator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --env-file=.env index.js"
+  },
+  "keywords": [],
+  "author": "Miko",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1651.0",
+    "pdf-parse": "^1.1.1",
+    "pg": "^8.12.0"
+  }
+}
